@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #08396a;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+.header .main-nav ul {
+  list-style: none;
+  padding: 0;
+}
+.header .main-nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 1.3em;
+}
+.header .main-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.header .main-nav ul li a:hover {
+  color: #ffc107;
+}
+
+.contenedor-logo {
+  display: flex;
+}
+
+.logo-menu {
+  margin-left: 20px;
+}
+
+.checkin-section {
+  background-color: white;
+  padding: 40px;
+  margin: 40px auto;
+  width: 60%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.checkin-section h2 {
+  color: #08396a;
+  margin-bottom: 20px;
+}
+.checkin-section form div {
+  margin-bottom: 10px;
+}
+.checkin-section form div label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.checkin-section form div input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.checkin-section form div input:focus {
+  border-color: #08396a;
+  outline: none;
+}
+.checkin-section form div button {
+  background-color: #ffc107;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.checkin-section form div button:hover {
+  background-color: #d39e00;
+}
+
+.footer-checkin {
+  background-color: #04203b;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+.footer-checkin p {
+  margin: 0;
+}/*# sourceMappingURL=stylecheckin.css.map */

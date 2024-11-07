@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #08396a;
+  padding: 20px;
+  color: white;
+}
+.header .main-nav ul {
+  list-style: none;
+  padding: 0;
+}
+.header .main-nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 1.3em;
+}
+.header .main-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.header .main-nav ul li a:hover {
+  color: #ffc107;
+}
+
+.contenedor-logo {
+  display: flex;
+}
+
+.logo-menu {
+  margin-left: 20px;
+}
+
+.destinos {
+  padding: 20px;
+  background-color: #4c9ff2;
+}
+.destinos h2 {
+  color: #ffc107;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.destinos .destino {
+  background-color: white;
+  border: 1px solid #08396a;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.destinos .destino h3 {
+  color: #08396a;
+}
+.destinos .destino p {
+  color: #ffc107;
+  font-size: 1.2em;
+}
+
+.contacto {
+  background-color: #031323;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+.contacto p, .contacto ul {
+  margin: 0;
+  padding: 5px;
+}
+.contacto ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.contacto ul li {
+  margin: 0 10px;
+}
+.contacto ul li a {
+  color: white;
+  text-decoration: none;
+}
+.contacto ul li a:hover {
+  color: #ffc107;
+}/*# sourceMappingURL=stylesPromociones.css.map */

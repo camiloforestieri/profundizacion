@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.header {
+  background-color: #08396a;
+  padding: 20px;
+  color: white;
+}
+.header .main-nav ul {
+  list-style: none;
+  padding: 0;
+}
+.header .main-nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 1.3em;
+}
+.header .main-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.header .main-nav ul li a:hover {
+  color: #ffc107;
+}
+
+.contenedor-logo {
+  display: flex;
+}
+
+.logo-menu {
+  margin-left: 20px;
+}
+
+section {
+  padding: 20px;
+  margin: 20px 0;
+}
+section.beneficios {
+  background-color: #f8f9fa;
+}
+section.niveles {
+  background-color: #4c9ff2;
+}
+section.inscripcion {
+  background-color: #fff4d3;
+  text-align: center;
+}
+section.inscripcion .btn-inscripcion {
+  background-color: #ffc107;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+section.inscripcion .btn-inscripcion:hover {
+  background-color: #d39e00;
+}
+
+.contacto {
+  background-color: #031323;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+.contacto p, .contacto ul {
+  margin: 0;
+  padding: 5px;
+}
+.contacto ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.contacto ul li {
+  margin: 0 10px;
+}
+.contacto ul li a {
+  color: white;
+  text-decoration: none;
+}
+.contacto ul li a:hover {
+  color: #ffc107;
+}/*# sourceMappingURL=styleMillas.css.map */

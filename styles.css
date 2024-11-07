@@ -1,0 +1,175 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #08396a;
+  padding: 20px;
+  color: white;
+}
+.header .main-nav ul {
+  list-style: none;
+  padding: 0;
+}
+.header .main-nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 1.3em;
+}
+.header .main-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.header .main-nav ul li a:hover {
+  color: #ffc107;
+}
+
+.contenedor-logo {
+  display: flex;
+}
+
+.logo-menu {
+  margin-left: 20px;
+}
+
+.destinos {
+  padding: 20px;
+  background-color: #4c9ff2;
+  width: 500px;
+  margin-left: 700px;
+  padding: 60px;
+}
+.destinos h2 {
+  color: #ffc107;
+  font-size: 1.6em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.destinos form div {
+  margin-bottom: 10px;
+}
+.destinos form div label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.destinos form div input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #01060b;
+  border-radius: 5px;
+}
+.destinos form div button {
+  padding: 10px 20px;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.destinos form div button:hover {
+  background-color: #d39e00;
+}
+
+.buscar-vuelos {
+  background-image: url(Img/cartagena.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.promociones {
+  padding: 20px;
+  background-color: #7cb9f5;
+}
+.promociones h2 {
+  color: #08396a;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 3em;
+}
+.promociones .promocion {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-image: url(Img/b777.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #08396a;
+  border-radius: 5px;
+  width: 900px;
+}
+.promociones .promocion h3 {
+  color: #08396a;
+  margin: 0;
+  font-size: 1.5em;
+}
+.promociones .promocion p {
+  color: #ffc107;
+  font-size: 1.2em;
+}
+
+.contedenor-promociones {
+  display: flex;
+}
+
+.video {
+  margin-left: 200px;
+}
+
+.contacto {
+  background-color: #031323;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+.contacto p, .contacto ul {
+  margin: 0;
+  padding: 5px;
+}
+.contacto ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.contacto ul li {
+  margin: 0 10px;
+}
+.contacto ul li a {
+  color: white;
+  text-decoration: none;
+}
+.contacto ul li a:hover {
+  color: #ffc107;
+}
+
+/* Estilos para el popup */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 2px solid #333;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.popup button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #555;
+}/*# sourceMappingURL=styles.css.map */
